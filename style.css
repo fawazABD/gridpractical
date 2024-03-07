@@ -1,0 +1,137 @@
+*{margin: 0px;
+    padding: 0px;}
+.background{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe99991773809b3eb0313_management-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+border-radius: 10px;}
+
+.sophie{height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        overflow: hidden;}
+.tips{display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.date{display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;}
+.article{margin-top: 50px;
+        padding-left: 20px;}
+.background2{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe9db6517db41e66bf261_digital-management-thumbnail-blog-writelogy-x-webflow-template-.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+border-radius: 10px;}
+
+.background3{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe8525409f6f9c1c7ab22_avoid-distractions-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+border-radius: 10px;}
+
+.background1{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe9db6517db41e66bf261_digital-management-thumbnail-blog-writelogy-x-webflow-template-.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+border-radius: 10px;}
+
+.background4{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe1c991773849cceae17c_time-tracking-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+width: 300px;
+border-radius: 10px;}
+#tips-5{margin-bottom: 100px;}
+input{height: 30px;
+width: 200px;}
+.list1{border: 2px solid black;
+        padding: 7px;}
+.list2{border: 2px solid black;
+    padding: 7px;}
+.list3{border: 2px solid black;
+    padding: 7px;}
+.lists{display: flex;
+flex-direction: row;
+gap: 20px;}
+.two{display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 50px 50px}
+.write{display: flex;
+    flex-direction: column;
+    gap: 30px;}
+.one{display: flex;
+flex-direction: column;
+gap: 50px;}
+.Resources{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abfe89ab6b229bab1ed420_management-software-featured-blog-writelogy-x-webflow-template-p-500.jpeg);
+height: 300px;
+width: 300px;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;}
+.restext{display: flex;
+flex-direction: column;
+margin-top: 230px;
+color: floralwhite;}
+.pop{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe3a09177383d10eae70a_collaboration-software-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+width: 200px;
+border-radius: 10px;}
+.first{display: flex;
+align-items: center;
+}
+.pop1{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe33779b3d5971674d153_project-management-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+width: 200px;
+border-radius: 10px;}
+.pop2{background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe1c991773849cceae17c_time-tracking-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+width: 200px;
+border-radius: 10px;}
+
+@media screen and (min-width:702px) and (max-width:1040px){
+    .two{
+        flex-direction:column;
+    }
+}
+@media screen and (min-width:414px) and (max-width:701px) {
+    .two{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:701px) {
+    .tips{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width:414px)  and (max-width:701px){
+    .background{ height: 400px;
+                 width: 500px;
+            
+    }
+    .background1{
+        height: 400px;
+        width: 500px;
+    }
+    .background2{height: 400px;
+                width: 500px;}
+    .background3{height: 400px;
+                width: 500px;}
+    .background4{height: 400px;
+                width: 500px;}
+}

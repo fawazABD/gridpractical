@@ -13,7 +13,8 @@ border-radius: 10px;}
         overflow: hidden;}
 .tips{display: flex;
     flex-direction: row;
-    justify-content: center;}
+    justify-content: center;
+    align-items:center;}
 .date{display: flex;
     flex-direction: row;
     align-items: center;
